@@ -7,6 +7,7 @@ import lombok.*;
 @Entity(name = "User")
 @Table(name = "user")
 @Data
+@Setter
 @NoArgsConstructor
 public class User {
 
